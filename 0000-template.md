@@ -1,7 +1,7 @@
 # Title-cased Name of the Feature
 
 - Status: proposed ("proposed", "agreed", "active", "implemented" or "rejected")
-- Related to: (fill me with either "OS" or "CpcdosC+")
+- Related to: (fill me with either "Kernel" or "CpcdosC+")
 - Start Date: (fill me in with today's date, YYYY-MM-DD)
 - Supersedes: (fill me in with a link to RFC this supersedes - if applicable)
 - Superseded by: (fill me in with a link to RFC this is superseded by - if applicable)
@@ -24,13 +24,14 @@ Why are we doing this? What use cases does it support? What is the expected outc
 # Guide-level explanation
 [guide-level-explanation]: #guide-level-explanation
 
-Explain the proposal as if it was already included in the language and you were teaching it to another CC+ programmer. That generally means:
+Explain the proposal as if it was already included in the language, or in the kernel, and you was teaching it to another CC+ programmer or Cpcdos OS2.2 contributor. This usually means :
 
 - Introducing new named concepts.
-- Explaining the feature largely in terms of examples.
-- Explaining how CC+ programmers should *think* about the feature, and how it should impact the way they use Rust. It should explain the impact as concretely as possible.
-- If applicable, provide sample error messages, deprecation warnings, or migration guidance.
-- If applicable, describe the differences between teaching this to existing CC+ programmers and new Rust programmers.
+- Explaining the functionality largely through examples.
+- Explaining how CC+ programmers should *think* about the feature and how it should impact on the way they use it. The impact should be explained in as concrete a way as possible.
+- Explaining how the feature of the language or the kernel fits into use and the relationship between its different parts.
+- If applicable, provide examples of error messages, depreciation warnings or migration advice.
+- If applicable, describe the differences between teaching this functionality to existing CC+ programmers and to new CC+ programmers. To clarify: You need to **explain** how developers feel about this feature depending on their experience about the project.
 
 # Reference-level explanation
 [reference-level-explanation]: #reference-level-explanation
@@ -61,8 +62,8 @@ Why should we *not* do this?
 Discuss prior art, both the good and the bad, in relation to this proposal.
 A few examples of what this can include are:
 
-- For language, library, cargo, tools, and compiler proposals: Does this feature exist in other programming languages and what experience have their community had?
-- For community proposals: Is this done by some other community and what were their experiences with it?
+- For language proposals: Does this feature exist in other programming languages and what has been the experience of their community?
+- For community proposals: Does this functionality exist in other communities and what has been their experience with it?
 - For other teams: What lessons can we learn from what other communities have done here?
 - Papers: Are there any published papers or great posts that discuss this? If you have some relevant papers to refer to, this can serve as a more detailed theoretical background.
 
@@ -95,7 +96,7 @@ RFC you are writing but otherwise related.
 If you have tried and cannot think of any future possibilities,
 you may simply state that you cannot think of anything.
 
-Note that having something written down in the future-possibilities section
+Note that having something written down in the future possibilities section
 is not a reason to accept the current or a future RFC; such notes should be
 in the section on motivation or rationale in this or subsequent RFCs.
 The section merely provides additional information.
