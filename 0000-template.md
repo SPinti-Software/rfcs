@@ -31,7 +31,6 @@ Explain the proposal as if it was already included in the language, or in the ke
 - Explaining how CC+ programmers should *think* about the feature and how it should impact on the way they use it. The impact should be explained in as concrete a way as possible.
 - Explaining how the feature of the language or the kernel fits into use and the relationship between its different parts.
 - If applicable, provide examples of error messages, depreciation warnings or migration advice.
-- If applicable, describe the differences between teaching this functionality to existing CC+ programmers and to new CC+ programmers. To clarify: You need to **explain** how developers feel about this feature depending on their experience about the project.
 
 # Reference-level explanation
 [reference-level-explanation]: #reference-level-explanation
