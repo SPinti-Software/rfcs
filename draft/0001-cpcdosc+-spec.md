@@ -22,3 +22,18 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 [motivation]: #motivation
 
 CpcdosC+, at the time of writing, lack of formal specification and his syntax lack of consistency. This RFC aim to address these problems.
+
+```bnf
+<alpha> ::= [a-zA-Z]
+<num> ::= [0-9]
+<alphanum> ::= <alpha> | <num>
+<identifier> ::= (<alpha> | "_") (<alphanum> | "_")* 
+
+<program> ::= <statement>+
+
+<statement> ::= "let/" <identifier> "=" <expr>
+    | "while/" <expr> ":" <statement>* "end/"
+    | "txt/" <expr>
+
+<expr> ::=
+```
